@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form </title>
+</head>
+
+<body>
+    <form action="">
+        <lable>Name :</lable>
+        <input type="text" name="name" placeholder="Enter your full name" readonly disabled>
+        <hr>
+
+        roll no : <input type="number" placeholder="Enter your roll number" name="rollno">
+        <hr>
+        mob no : <input type="tel" name="mobno">
+
+        <hr>
+        course : <input type="checkbox" name="course" value="python">Python
+        <input type="checkbox" name="course" value="java">Java
+        <input type="checkbox" name="course" value="mern">MERN Stack
+
+        <hr>
+        Gender : <input type="radio" value="male" name="gender">Male
+        <input type="radio" value="female" name="gender">Female
+
+        <hr>
+
+        DOB :<input type="date" name="dob">
+        <hr>
+
+        course : <select name="co">
+            <option>Select Course</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+            <option value="htnl">HTML</option>
+            <option value="css">CSS</option>
+            <option value="django">Django</option>
+
+        </select>
+
+        <hr>
+        Feedback : <textarea placeholder="write your thoughts" cols="25" rows="4" maxlength="10" minlength="5"></textarea>
+        <hr>
+        <input type="submit" value="Done">
+    </form>
+</body>
+
+</html>
